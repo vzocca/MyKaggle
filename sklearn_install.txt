@@ -1,0 +1,3 @@
+# Get the latest sklearn
+
+pip install git+git://github.com/scikit-learn/scikit-learn.git#egg=scikit-learn
