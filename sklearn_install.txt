@@ -1,3 +1,15 @@
 # Get the latest sklearn
 
 pip install git+git://github.com/scikit-learn/scikit-learn.git#egg=scikit-learn
+
+# Get latest OpenCV
+
+brew tap homebrew/science
+brew install opencv
+conda install opencv
+
+or
+
+#add to ~/.bashrc
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
